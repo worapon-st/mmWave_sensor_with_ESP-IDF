@@ -13,6 +13,6 @@ I use is **BGT60TR13C** mmWave sensor from Infineon.
 - Number of RX : 3
 - Antenna type : Antenna on Chip (AoC)
 - Protocol : SPI 32 bit
-  [31:25] Address bit
-  [24:24] Read/Write bit
-  [23:00] Data bit
+  - [31:25] Address bit
+  - [24:24] Read/Write bit
+  - [23:00] Data bit
