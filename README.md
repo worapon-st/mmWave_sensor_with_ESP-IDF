@@ -46,8 +46,7 @@ Let's move next to the **Processing** after get the raw data from sensor.
 5. The output give low SNR (signal to noise ratio), so I use **CFAR** method to find the peak among the signal.
 
 ![image](Visualize_part/cfar.png)
-> upper right : before apply CFAR
-> lower right : after apply CFAR
+> upper right : before apply CFAR | lower right : after apply CFAR
 
 6. Use FFT along the receiver number but it give bad resolution because the **Angle of Arrival (AoA)** need many receiver array. I try to compensated the receiver by zero padding, so the result it give are more visualize but still bad quality to use.
 
